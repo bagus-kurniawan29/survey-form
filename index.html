@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surveyform</survey-form></title>\
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">How can the MEME improve their entertaiment value?</h1>
+<p id="description"> Thank you for taking your time to help MEME improve</p>
+<form id="survey-form">
+    <div class="input-element"> 
+    <label id="name-label">
+     Name 
+      </label>
+      <input placeholder="name" id="name" type="text" required />
+      </div>
+  
+    <div class="input-element"> 
+    <label id="email-label">
+     email 
+      </label>
+      <input placeholder="email" id="email" type="email" required />
+      </div>
+  
+    <div class="input-element"> 
+    <label id="number-label">
+     Age 
+      </label>
+      <input placeholder="age" id="number" type="number" min="18"
+      max="30" required />
+      </div>
+    <div class="input-element"> 
+    <label id="select-label">
+     Whos your favorite
+      </label>
+      <select id="dropdown" >
+        <option>Kim johnson</option>
+        <option>Elmanuk</option>
+        <option>lebron Jumss</option>
+        <option>Fuad</option>
+        <option>lil nus nus</option>
+         </select>
+      </div>
+  <div>
+    <fieldset />
+    <label> have you been cringe before? </label>
+    <div>
+    <label><input class="inline" type="radio" name="game"  value="yes">yes</label>
+    </div>
+    <div>
+    <label><input class="inline" type="radio" name="game" value="no">no</label>
+    </div>
+  </div>
+  <div>
+    <fieldset />
+    <label> Which sugestion you watch MEME
+      <div>
+    <label><input class="inline" type="checkbox" name="ideas" value="facebook" />Facebook</label>
+    </div>
+    <div>
+    <label><input class="inline" type="checkbox" name="ideas" value="instagram" />Instagram</label>
+    </div>
+    <div>
+    <label><input class="inline" type="checkbox" name="ideas" value="tiktok" />Tiktok</label>
+    </div>
+    <div>
+    <label><input class="inline" type="checkbox" name="ideas" value="youtube" />Youtube</label>
+    </div>
+    <div>
+    <label><input class="inline" type="checkbox" name="ideas" value="Other" />Other</label>
+    </div>
+  </div>
+  <div>
+    <label>Additional comments</label>
+    <textarea type="text"></textarea>
+  </div>
+  <button id="submit">
+    Submit
+    </button>
+  </form>
+</body>
+</html>
